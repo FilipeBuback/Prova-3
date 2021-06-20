@@ -1,10 +1,6 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
-namespace funcao{
-
-
-  struct tCircuito{
+ struct tCircuito{
     float r1;
     float r2;
     float v1;
@@ -27,12 +23,12 @@ namespace funcao{
       paralelo=((r1+r2)/(r1*r2));
       corrente_paralelo=v1/paralelo;
       potencia_paralelo=v1*corrente_paralelo;
-      cout<< "Resultado da resistência em série" << serie << endl;
-      cout<< "Resultado da corrente em série" << corrente_serie << endl;
-      cout<< "Resultado da potência em série" << potencia_serie << endl;
-      cout<< "Resultado da resistência em paralelo" << paralelo << endl;
-      cout<< "Resultado da corrente em série" << corrente_paralelo << endl;
-      cout<< "Resultado da potência em série" << potencia_paralelo << endl;
-  }
- }
-}
+      cout<< "Resultado da resistência em série: " << serie << endl;
+      cout<< "Resultado da corrente em série: " << corrente_serie << endl;
+      cout<< "Resultado da potência em série: " << potencia_serie << endl;
+      cout<< "Resultado da resistência em paralelo: " << paralelo << endl;
+      cout<< "Resultado da corrente em série: " << corrente_paralelo << endl;
+      cout<< "Resultado da potência em série: " << potencia_paralelo << endl;
+  
+
+    }};
