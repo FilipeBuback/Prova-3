@@ -23,12 +23,12 @@ using namespace std;
       paralelo=((r1+r2)/(r1*r2));
       corrente_paralelo=v1/paralelo;
       potencia_paralelo=v1*corrente_paralelo;
-      cout<< "Resultado da resistência em série: " << serie << endl;
-      cout<< "Resultado da corrente em série: " << corrente_serie << endl;
-      cout<< "Resultado da potência em série: " << potencia_serie << endl;
-      cout<< "Resultado da resistência em paralelo: " << paralelo << endl;
-      cout<< "Resultado da corrente em série: " << corrente_paralelo << endl;
-      cout<< "Resultado da potência em série: " << potencia_paralelo << endl;
+      cout<< "Resultado da resistência em série: " << serie << " ohm" <<endl;
+      cout<< "Resultado da corrente em série: " << corrente_serie << " A" << endl;
+      cout<< "Resultado da potência em série: " << potencia_serie << " W"<< endl;
+      cout<< "Resultado da resistência em paralelo: " << paralelo << " ohm" << endl;
+      cout<< "Resultado da corrente em paralelo: " << corrente_paralelo << " A" << endl;
+      cout<< "Resultado da potência em paralelo: " << potencia_paralelo << " W" << endl;
   
 
     }};
